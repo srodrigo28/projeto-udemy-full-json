@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <!-- <script src="./js/script.js"></script> -->
+    <link rel="stylesheet" href="./style/styles.css">
+    <link rel="stylesheet" href="./style/bootstrap.css">
+    
+    <link rel="shortcut icon" href="#" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App Full</title>
+</head>
+<body>
+    <!-- Navegação -->
+    <div class="container"> <!--Container principal -->
+       
+        <div class="form-control mt-5"> <!--Cotrole form -->
+            <h1 class="text-center mt-3 mb-5">Cadastrar Prondtos</h1>
+            
+            <div class="row"> <!-- Linha dos Inputs-->
+                <div class="col"> <!-- 1. Coluna nome input -->
+                    <div class="input-group"> 
+                        <span class="input-group-text">Nome </span>
+                        <input type="text" class="form-control">
+                    </div>
+                </div>  <!-- 1. fecha Coluna nome input -->
+                
+                <div class="col"> <!-- 2. Coluna quantidade input -->
+                    <div class="input-group"> 
+                        <span class="input-group-text">Qtd. </span>
+                        <input type="text" class="form-control">
+                    </div>
+                </div> <!-- 2. fecha Coluna quatnidade input -->
+                
+                <div class="col"> <!-- 2. Coluna quantidade input -->
+                    <div class="input-group"> 
+                        <span class="input-group-text">R$ </span>
+                        <input type="text" class="form-control">
+                    </div>
+                </div> <!-- 2. fecha Coluna quatnidade input -->
+            </div>
+
+            <div class="row text-start mt-3"> <!-- Linha dos botões-->
+                <div class="col">
+                    <button class="btn btn-outline-primary">Cadastrar</button>
+                    <button class="btn btn-outline-danger">Cancelar</button>
+                </div>
+            </div>
+        </div> <!--fechar Cotrole form -->
+        
+        <table class="table table-striped mt-4 mb-3"> <!-- Tabela Listagem -->
+            <thead>
+                <tr>
+                    <th>Código</th>
+                    <th>Nome</th>
+                    <th>Qtd.</th>
+                    <th>Preço</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>01</td>
+                    <td>Jogo 01</td>
+                    <td>10</td>
+                    <td>100</td>
+                </tr>
+                <tr>
+                    <td>02</td>
+                    <td>Jogo 02</td>
+                    <td>10</td>
+                    <td>100</td>
+                </tr>
+                <tr>
+                    <td>03</td>
+                    <td>Jogo 03</td>
+                    <td>10</td>
+                    <td>100</td>
+                </tr>
+            </tbody>
+        </table>
+        <!-- Paginação -->
+            <nav class="page-center mt-4">
+                <ul class="pagination">
+                    <li class="page-link">
+                        Anterior
+                    </li>
+                    <li class="page-item"> 
+                        <a class="page-link" href="#"> 1 </a>
+                    </li>
+                    <li class="page-item"> 
+                        <a class="page-link" href="#"> 2 </a>
+                    </li>
+                    <li class="page-item"> 
+                        <a class="page-link" href="#"> 3 </a>
+                    </li>
+                    <li class="page-item">
+                        <a class="page-link" href="#"> Próximo </a>
+                    </li>
+                </ul>
+            </nav>
+
+    </div> <!--Fechar Container principal -->
+</body>
+</html>

@@ -1,0 +1,23 @@
+{
+  "produtos": [
+    {
+      "nome": "jogo 004",
+      "quantidade": "50",
+      "valor": "50",
+      "id": 1
+    },
+    {
+      "nome": "jogo 3",
+      "quantidade": "3",
+      "valor": "200",
+      "id": 2
+    }
+  ],
+  "cliente": [
+    {
+      "id": 1,
+      "nome": "joao sousa",
+      "telefone": ""
+    }
+  ]
+}
